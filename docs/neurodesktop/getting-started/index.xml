@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NeuroDesk – Getting Started</title><link>https://neurodesk.github.io/docs/neurodesktop/getting-started/</link><description>Recent content in Getting Started on NeuroDesk</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://neurodesk.github.io/docs/neurodesktop/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Linux</title><link>https://neurodesk.github.io/docs/neurodesktop/getting-started/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://neurodesk.github.io/docs/neurodesktop/getting-started/linux/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NeuroDesk – Getting Started</title><link>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/</link><description>Recent content in Getting Started on NeuroDesk</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Linux</title><link>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/linux/</guid><description>
 &lt;h2 id="minimum-system-requirements">Minimum System Requirements&lt;/h2>
 &lt;ol>
 &lt;li>At least 3GB free space for neurodesktop base image&lt;/li>
@@ -168,7 +168,7 @@ password: password
 &lt;pre class="language-batch command-line" data-prompt=">">
 &lt;code>docker run --shm-size=1gb -it --privileged --name neurodesktop -v C:/neurodesktop-storage:/neurodesktop-storage -e VNC_ENABLE=1 -p 5901:5901 -p 8080:8080 -h neurodesktop-20211207 vnmd/neurodesktop:20211207&lt;/code>
 &lt;/pre>
-or open a VNC Client and connect to port 5901 (for this -p 5901:5901 has to be added to the docker call) --></description></item><item><title>Docs: MacOS</title><link>https://neurodesk.github.io/docs/neurodesktop/getting-started/mac/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://neurodesk.github.io/docs/neurodesktop/getting-started/mac/</guid><description>
+or open a VNC Client and connect to port 5901 (for this -p 5901:5901 has to be added to the docker call) --></description></item><item><title>Docs: MacOS</title><link>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/mac/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/mac/</guid><description>
 &lt;h2 id="minimum-system-requirements">Minimum System Requirements&lt;/h2>
 &lt;ol>
 &lt;li>At least 3GB free space for neurodesktop base image&lt;/li>
@@ -233,7 +233,7 @@ password: password
 &lt;pre class="language-batch command-line" data-prompt=">">
 &lt;code>docker run --shm-size=1gb -it --privileged --name neurodesktop -v C:/neurodesktop-storage:/neurodesktop-storage -e VNC_ENABLE=1 -p 5901:5901 -p 8080:8080 -h neurodesktop-20211207 vnmd/neurodesktop:20211207&lt;/code>
 &lt;/pre>
-or open a VNC Client and connect to port 5901 (for this -p 5901:5901 has to be added to the docker call) --></description></item><item><title>Docs: Windows</title><link>https://neurodesk.github.io/docs/neurodesktop/getting-started/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://neurodesk.github.io/docs/neurodesktop/getting-started/windows/</guid><description>
+or open a VNC Client and connect to port 5901 (for this -p 5901:5901 has to be added to the docker call) --></description></item><item><title>Docs: Windows</title><link>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/windows/</guid><description>
 &lt;h2 id="minimum-system-requirements">Minimum System Requirements&lt;/h2>
 &lt;ol>
 &lt;li>At least 3GB free space for neurodesktop base image&lt;/li>
@@ -303,10 +303,10 @@ We do not recommend the use of the Firefox browser for accessing Neurodesktop, a
 If you want to connect via RDP using a different port, replace 3390 in the previous and next step with your port
 &lt;/div>
 &lt;p>Open Windows Remote Desktop Connection and connect to Computer &lt;code>localhost:3390&lt;/code> as shown below.&lt;/p>
-&lt;p>&lt;img src="https://neurodesk.github.io/neurodesktop/getting-started/win-rdp-1.png" alt="win-rdp-1" title="win-rdp-1">&lt;/p>
+&lt;p>&lt;img src="https://kel-github/neurodesk.github.io/neurodesktop/getting-started/win-rdp-1.png" alt="win-rdp-1" title="win-rdp-1">&lt;/p>
 &lt;p>Resolution and multi-monitor settings can be set from the Display tab.&lt;/p>
 &lt;p>Once ready, click Connect. This will take you to the following prompt&lt;/p>
-&lt;p>&lt;img src="https://neurodesk.github.io/neurodesktop/getting-started/win-rdp-2.png" alt="win-rdp-1" title="win-rdp-2">&lt;/p>
+&lt;p>&lt;img src="https://kel-github/neurodesk.github.io/neurodesktop/getting-started/win-rdp-2.png" alt="win-rdp-1" title="win-rdp-2">&lt;/p>
 &lt;p>Use the following details to login&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Session: Xorg
 username: user
@@ -316,8 +316,8 @@ password: password
 &lt;pre class="language-batch command-line" data-prompt=">">
 &lt;code>docker run --shm-size=1gb -it --privileged --name neurodesktop -v C:/neurodesktop-storage:/neurodesktop-storage -e VNC_ENABLE=1 -p 5901:5901 -p 8080:8080 -h neurodesktop-20211207 vnmd/neurodesktop:20211207&lt;/code>
 &lt;/pre>
-or open a VNC Client and connect to port 5901 (for this -p 5901:5901 has to be added to the docker call) --></description></item><item><title>Docs: HPC</title><link>https://neurodesk.github.io/docs/neurodesktop/getting-started/hpc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://neurodesk.github.io/docs/neurodesktop/getting-started/hpc/</guid><description>
-&lt;p>One way of running this project on HPCs is via &lt;a href="https://neurodesk.github.io/docs/neurocommand/getting-started/linux/">https://neurodesk.github.io/docs/neurocommand/getting-started/linux/&lt;/a>&lt;/p></description></item><item><title>Docs: Cloud</title><link>https://neurodesk.github.io/docs/neurodesktop/getting-started/cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://neurodesk.github.io/docs/neurodesktop/getting-started/cloud/</guid><description>
+or open a VNC Client and connect to port 5901 (for this -p 5901:5901 has to be added to the docker call) --></description></item><item><title>Docs: HPC</title><link>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/hpc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/hpc/</guid><description>
+&lt;p>One way of running this project on HPCs is via &lt;a href="https://neurodesk.github.io/docs/neurocommand/getting-started/linux/">https://neurodesk.github.io/docs/neurocommand/getting-started/linux/&lt;/a>&lt;/p></description></item><item><title>Docs: Cloud</title><link>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/cloud/</guid><description>
 &lt;h2 id="minimum-system-requirements">Minimum System Requirements&lt;/h2>
 &lt;ol>
 &lt;li>At least 3GB free space for neurodesktop base image&lt;/li>
@@ -425,7 +425,7 @@ If you want to connect via RDP using a different port, replace 3390 in the previ
 &lt;p>Use the following details to login if prompted&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">username: user
 password: password
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Demo</title><link>https://neurodesk.github.io/docs/neurodesktop/getting-started/demo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://neurodesk.github.io/docs/neurodesktop/getting-started/demo/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Demo</title><link>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/demo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/docs/neurodesktop/getting-started/demo/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>We are working on a demo that directly runs in your browser without the need to install anything. But it&amp;rsquo;s not quite ready yet &amp;hellip;&lt;/p>
 &lt;/div></description></item></channel></rss>
