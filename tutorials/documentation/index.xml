@@ -77,7 +77,6 @@ print(a+b)
 &lt;p>You can also add code snippets, e.g. &lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code>, which will be shown inline.&lt;/p>
 &lt;h3 id="images">Images&lt;/h3>
 &lt;p>To add screenshots to your tutorial, create a subfolder in &lt;code>neurodesk.github.io/static&lt;/code> with the same link name as your tutorial. Add your screenshot to this folder, keeping in mind that you may want to adjust your screenshot to a reasonable size before uploading. You can then embed these images in your tutorial using the following convention:&lt;/p>
-&lt;p>&lt;code>![alttext4img](/tutorial_subfolder_name/filename.png 'filename_without_extension')&lt;/code>&lt;/p>
 &lt;p>&lt;img src="https://kel-github/neurodesk.github.io/EEG_Tutorial/EEGtut1.png" alt="EEGtut1" title="EEGtut1"> &lt;!-- ![filename without extension](/subfolder_name/filename.png '[filename without extension') -->&lt;/p>
 &lt;h3 id="alerts-and-warnings">Alerts and warnings&lt;/h3>
 &lt;p>You can grab reader&amp;rsquo;s attention to particularly important information with quoteblocks, alerts and warnings:&lt;/p>
