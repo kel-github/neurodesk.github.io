@@ -212,7 +212,7 @@ fmriprep /path/to/your/data <span style=color:#4e9a06>\ </span><span style=color
          --nprocs 6 --mem_gb 10000 \ # mriqc can be greedy on the hpc, make sure it is not
          -v # be verbal mriqc, tell me what you are doing
 </code></pre></div><p>To make either of yours files executable, navigate via the terminal to the same folder in which this file is saved. If you list the files in the folder by using the command <code>ls</code> you should see your file with the name printed in white.</p>
-<p><img src=/static/mriqc_cvl/pre_exec.png alt="mriqc command pre executable"></p>
+<p><img src=../../../../static/mriqc_cvl/pre_exec.png alt="mriqc command pre executable"></p>
 <p>Now type the following command:</p>
 <div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#000>chmod</span> <span style=color:#000>u</span><span style=color:#ce5c00;font-weight:700>+</span><span style=color:#000>x</span> <span style=color:#000>run_mriqc_participant</span> <span style=color:#a40000>#</span> <span style=color:#000>this</span> <span style=color:#000>tells</span> <span style=color:#000>the</span> <span style=color:#000>system</span> <span style=color:#000>to</span> <span style=color:#000>make</span> <span style=color:#000>your</span> <span style=color:#000>new</span> <span style=color:#000>file</span> <span style=color:#000>executable</span>
 </code></pre></div><p>To know this worked, list the files again. If you have successfully made your file executable then it will be listed in green.</p>

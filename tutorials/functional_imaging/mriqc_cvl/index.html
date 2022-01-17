@@ -22,11 +22,11 @@
 ">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://kel-github/neurodesk.github.io/tutorials/functional_imaging/mriqc_cvl/"><meta property="article:section" content="tutorials">
-<meta property="article:modified_time" content="2022-01-17T15:32:36+10:00"><meta property="og:site_name" content="NeuroDesk">
+<meta property="article:modified_time" content="2022-01-17T15:36:00+10:00"><meta property="og:site_name" content="NeuroDesk">
 <meta itemprop=name content="Using mriqc with neurodesk on HPC">
 <meta itemprop=description content="A brief guide to using mriqc with neurodesk, using data from the STRIAVISE project.
 ">
-<meta itemprop=dateModified content="2022-01-17T15:32:36+10:00">
+<meta itemprop=dateModified content="2022-01-17T15:36:00+10:00">
 <meta itemprop=wordCount content="645">
 <meta itemprop=keywords content="mriqc,documentation,preprocessing,"><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Using mriqc with neurodesk on HPC">
@@ -215,7 +215,7 @@
          --nprocs 6 --mem_gb 10000 \ # mriqc can be greedy on the hpc, make sure it is not
          -v # be verbal mriqc, tell me what you are doing
 </code></pre></div><p>To make either of yours files executable, navigate via the terminal to the same folder in which this file is saved. If you list the files in the folder by using the command <code>ls</code> you should see your file with the name printed in white.</p>
-<p><img src=/static/mriqc_cvl/pre_exec.png alt="mriqc command pre executable"></p>
+<p><img src=../../../../static/mriqc_cvl/pre_exec.png alt="mriqc command pre executable"></p>
 <p>Now type the following command:</p>
 <div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#000>chmod</span> <span style=color:#000>u</span><span style=color:#ce5c00;font-weight:700>+</span><span style=color:#000>x</span> <span style=color:#000>run_mriqc_participant</span> <span style=color:#a40000>#</span> <span style=color:#000>this</span> <span style=color:#000>tells</span> <span style=color:#000>the</span> <span style=color:#000>system</span> <span style=color:#000>to</span> <span style=color:#000>make</span> <span style=color:#000>your</span> <span style=color:#000>new</span> <span style=color:#000>file</span> <span style=color:#000>executable</span>
 </code></pre></div><p>To know this worked, list the files again. If you have successfully made your file executable then it will be listed in green.</p>
@@ -229,7 +229,7 @@
 <li>If running on a HPC, make sure to set the processor and memory limits, if not your job will get killed because mriqc hogs all the resources.</li>
 </ol>
 <div class="text-muted mt-5 pt-3 border-top">
-Last modified January 17, 2022: <a href=https://github.com/NeuroDesk/neurodesk.github.io/commit/254aa98bfaff1145fd27eb20619c3a4843a32903>testing image insertion (254aa98b)</a>
+Last modified January 17, 2022: <a href=https://github.com/NeuroDesk/neurodesk.github.io/commit/af6ee433e471b27386a2e0e4bc6a47374e2f0a86>testing image insertion (af6ee433)</a>
 </div>
 </div>
 </main>
