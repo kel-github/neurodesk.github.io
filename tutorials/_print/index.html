@@ -66,7 +66,7 @@
 </li>
 </ul>
 </div>
-<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/neurodesk.github.io/offline-search-index.c208fa6626fc1ebb06e9cb4034c9e1c4.json data-offline-search-base-href=/ data-offline-search-max-results=10>
+<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/neurodesk.github.io/offline-search-index.03a5a495af42490773f6ad0846382560.json data-offline-search-base-href=/ data-offline-search-max-results=10>
 </div>
 </nav>
 </header>
@@ -363,14 +363,14 @@ fmriprep /path/to/your/data <span style=color:#4e9a06>\ </span><span style=color
 <hr>
 <h1 id=assumptions>Assumptions</h1>
 <ul>
-<li><input disabled type=checkbox> Your data is already in BIDS format (<a href=https://github.com/NeuroDesk/neurodesk.github.io)>https://github.com/NeuroDesk/neurodesk.github.io)</a>.</li>
+<li><input disabled type=checkbox> Your data is already in BIDS format</li>
 <li><input disabled type=checkbox> You plan to run mriqc using Neurodesk</li>
 </ul>
 <hr>
 <h1 id=steps>Steps</h1>
 <h2 id=open-mriqc>Open mriqc</h2>
 <p>From the applications go Neurodesk -> Functional Imaging -> mriqc and select the latest version of mriqc. This should take you to a terminal window with mriqc loaded. <p></p>
-<p><img src=/static/mriqc_cvl/mriqc_terminal.png alt="mriqc terminal"></p>
+<p><img src=/neurodesk.github.io/static/mriqc_cvl/mriqc_terminal.png alt="mriqc terminal"></p>
 <h2 id=setting-up-mriqc-command>Setting up mriqc command</h2>
 <p>If you like, you can enter the following mriqc commands straight into the command line in the newly opened terminal. However, as with increasing options and preferences the command can get rather verbose, so I instead opted to create executable bash scripts that I can run straight from the command line, with minimal editing inbetween runs. I made one for running mriqc at the participant level, and one for running at the group level (for the group report, once all the participants are done). If you&rsquo;re not interested in this option you can skip straight to copying/adjusting the code from <code>mriqc</code> to <code>-v</code> below.</p>
 <ul>

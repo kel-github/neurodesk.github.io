@@ -384,14 +384,14 @@ ax.legend()
 &lt;hr>
 &lt;h1 id="assumptions">Assumptions&lt;/h1>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Your data is already in BIDS format (&lt;a href="https://github.com/NeuroDesk/neurodesk.github.io)">https://github.com/NeuroDesk/neurodesk.github.io)&lt;/a>.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Your data is already in BIDS format&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> You plan to run mriqc using Neurodesk&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;h1 id="steps">Steps&lt;/h1>
 &lt;h2 id="open-mriqc">Open mriqc&lt;/h2>
 &lt;p>From the applications go Neurodesk -&amp;gt; Functional Imaging -&amp;gt; mriqc and select the latest version of mriqc. This should take you to a terminal window with mriqc loaded. &lt;p>&lt;/p>
-&lt;p>&lt;img src="https://kel-github/neurodesk.github.io/static/mriqc_cvl/mriqc_terminal.png" alt="mriqc terminal">&lt;/p>
+&lt;p>&lt;img src="https://kel-github/neurodesk.github.io/neurodesk.github.io/static/mriqc_cvl/mriqc_terminal.png" alt="mriqc terminal">&lt;/p>
 &lt;h2 id="setting-up-mriqc-command">Setting up mriqc command&lt;/h2>
 &lt;p>If you like, you can enter the following mriqc commands straight into the command line in the newly opened terminal. However, as with increasing options and preferences the command can get rather verbose, so I instead opted to create executable bash scripts that I can run straight from the command line, with minimal editing inbetween runs. I made one for running mriqc at the participant level, and one for running at the group level (for the group report, once all the participants are done). If you&amp;rsquo;re not interested in this option you can skip straight to copying/adjusting the code from &lt;code>mriqc&lt;/code> to &lt;code>-v&lt;/code> below.&lt;/p>
 &lt;ul>
