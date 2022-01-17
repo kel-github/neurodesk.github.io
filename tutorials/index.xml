@@ -371,7 +371,7 @@ ax.set_ylim(0, 1e-6)
 ax.set_title(&amp;#39;Frequency Spectrum&amp;#39;)
 ax.legend()
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://kel-github/neurodesk.github.io/EEG_Tutorial/EEGtut10.PNG" alt="EEGtut10" title="EEGtut10">&lt;/p>
-&lt;p>This plot shows that the SSVEPs were indeed modulated by attention in the direction we would expect! Congratulations! You’ve run your first analysis of EEG data in neurodesktop.&lt;/p></description></item><item><title>Tutorials: Using mriqc with neurodesk on HPC (CVL)</title><link>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/mriqc_cvl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/mriqc_cvl/</guid><description>
+&lt;p>This plot shows that the SSVEPs were indeed modulated by attention in the direction we would expect! Congratulations! You’ve run your first analysis of EEG data in neurodesktop.&lt;/p></description></item><item><title>Tutorials: Using mriqc with neurodesk on HPC</title><link>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/mriqc_cvl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/mriqc_cvl/</guid><description>
 &lt;blockquote>
 &lt;p>&lt;em>This tutorial was created by Kelly G. Garner.&lt;/em>&lt;/p>
 &lt;p>Email: &lt;a href="mailto:getkellygarner@gmailc.om">getkellygarner@gmail.com&lt;/a>&lt;/p>

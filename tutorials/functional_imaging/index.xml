@@ -56,7 +56,7 @@ participant &lt;span style="color:#4e9a06">\ &lt;/span>&lt;span style="color:#8f
 &lt;li>
 &lt;p>If running on a HPC, make sure to set the processor and memory limits, if not your job will get killed because it hogs all the resources.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Tutorials: Using mriqc with neurodesk on HPC (CVL)</title><link>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/mriqc_cvl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/mriqc_cvl/</guid><description>
+&lt;/ol></description></item><item><title>Tutorials: Using mriqc with neurodesk on HPC</title><link>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/mriqc_cvl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/mriqc_cvl/</guid><description>
 &lt;blockquote>
 &lt;p>&lt;em>This tutorial was created by Kelly G. Garner.&lt;/em>&lt;/p>
 &lt;p>Email: &lt;a href="mailto:getkellygarner@gmailc.om">getkellygarner@gmail.com&lt;/a>&lt;/p>
