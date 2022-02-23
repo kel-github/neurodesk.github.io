@@ -1,9 +1,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NeuroDesk – Functional Imaging</title><link>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/</link><description>Recent content in Functional Imaging on NeuroDesk</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://kel-github/neurodesk.github.io/tutorials/functional_imaging/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorials: Using fmriprep with neurodesk on an HPC</title><link>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/fmriprep_cvl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/fmriprep_cvl/</guid><description>
 &lt;blockquote>
 &lt;p>&lt;em>This tutorial was created by Kelly G. Garner.&lt;/em>&lt;/p>
-&lt;p>Email: &lt;a href="mailto:getkellygarner@gmail.com">getkellygarner@gmail.com&lt;/a>&lt;/p>
-&lt;p>Github: @kel_github&lt;/p>
-&lt;p>Twitter: @garnertheory&lt;/p>
+&lt;p>Email: &lt;a href="mailto:getkellygarner@gmailc.om">getkellygarner@gmail.com&lt;/a>&lt;/p>
+&lt;p>Github: &lt;a href="https://github.com/kel-github">@kel_github&lt;/a>&lt;/p>
+&lt;p>Twitter: &lt;a href="https://twitter.com/garner_theory">@garnertheory&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
 &lt;p>This workflow documents how to use fmriprep with neurodesk and provides some details that may help you troubleshoot some common problems I found along the way.&lt;/p>
@@ -116,6 +116,26 @@ group \ # this tells mriqc to agive you the group report
 &lt;ol>
 &lt;li>If running on a HPC, make sure to set the processor and memory limits, if not your job will get killed because mriqc hogs all the resources.&lt;/li>
 &lt;/ol></description></item><item><title>Tutorials: PhysIO</title><link>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/physio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kel-github/neurodesk.github.io/tutorials/functional_imaging/physio/</guid><description>
+&lt;blockquote>
+&lt;p>&lt;em>This tutorial was created by Lars Kasper.&lt;/em>&lt;/p>
+&lt;p>Github: @mrikasper&lt;/p>
+&lt;p>Twitter: @mrikasper&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="origin">Origin&lt;/h2>
+&lt;p>The PhysIO Toolbox implements ideas for robust physiological noise modeling in fMRI, outlined in this paper:&lt;/p>
+&lt;ol>
+&lt;li>Kasper, L., Bollmann, S., Diaconescu, A.O., Hutton, C., Heinzle, J., Iglesias,
+S., Hauser, T.U., Sebold, M., Manjaly, Z.-M., Pruessmann, K.P., Stephan, K.E., 2017.
+&lt;em>The PhysIO Toolbox for Modeling Physiological Noise in fMRI Data&lt;/em>.
+Journal of Neuroscience Methods 276, 56-72. &lt;a href="https://doi.org/10.1016/j.jneumeth.2016.10.019">https://doi.org/10.1016/j.jneumeth.2016.10.019&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>PhysIO is part of the open-source &lt;a href="https://translationalneuromodeling.github.io/tapas/">TAPAS Software Package&lt;/a> for Translational Neuromodeling and Computational Psychiatry, introduced in the following paper:&lt;/p>
+&lt;ol start="2">
+&lt;li>Frässle, S., Aponte, E.A., Bollmann, S., Brodersen, K.H., Do, C.T., Harrison, O.K., Harrison, S.J., Heinzle, J., Iglesias, S., Kasper, L., Lomakina, E.I., Mathys, C., Müller-Schrader, M., Pereira, I., Petzschner, F.H., Raman, S., Schöbi, D., Toussaint, B., Weber, L.A., Yao, Y., Stephan, K.E., 2021. &lt;em>TAPAS: an open-source software package for Translational Neuromodeling and Computational Psychiatry&lt;/em>. Frontiers in Psychiatry 12, 857. &lt;a href="https://doi.org/10.3389/fpsyt.2021.680811">https://doi.org/10.3389/fpsyt.2021.680811&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>Please cite these works if you use PhysIO and see the &lt;a href="https://gitlab.ethz.ch/physio/physio-doc/-/wikis/FAQ#3-how-do-i-cite-physio">FAQ&lt;/a> for details.&lt;/p>
+&lt;p>NeuroDesk offers the possibility of running PhysIO without installing Matlab or requiring a Matlab license. The functionality should be equivalent, though debugging and extending the toolbox, as well as unreleased development features, will only be available in the Matlab version of PhysIO, which is exlusively hosted on the &lt;a href="https://github.com/translationalneuromodeling/tapas">TAPAS GitHub&lt;/a>.&lt;/p>
+&lt;p>More general info about PhysIO besides NeuroDesk usage is found in the &lt;a href="https://github.com/translationalneuromodeling/tapas/tree/master/PhysIO#readme">README&lt;/a> on GitHub.&lt;/p>
 &lt;h2 id="purpose">Purpose&lt;/h2>
 &lt;p>The general purpose of the PhysIO toolbox is model-based physiological noise correction of fMRI data using peripheral measures of respiration and cardiac pulsation (respiratory bellows, ECG, pulse oximeter/plethysmograph).&lt;/p>
 &lt;p>It incorporates noise models of&lt;/p>
@@ -134,8 +154,6 @@ group \ # this tells mriqc to agive you the group report
 &lt;li>Integration in fMRI pre-processing pipelines as SPM Toolbox (Batch Editor GUI).&lt;/li>
 &lt;/ul>
 &lt;p>The accompanying technical paper about the toolbox concept and methodology can be found at: &lt;a href="https://doi.org/10.1016/j.jneumeth.2016.10.019">https://doi.org/10.1016/j.jneumeth.2016.10.019&lt;/a>&lt;/p>
-&lt;p>See more info about PhysIO (incl. relevant papers to cite and FAQ) in the online &lt;a href="https://github.com/translationalneuromodeling/tapas/tree/master/PhysIO#readme">README&lt;/a> on GitHub. PhysIO is part of the TAPAS Software Collection GitHub, and its Matlab version is exclusively hosted there.&lt;/p>
-&lt;p>NeuroDesk offers the possibility of running PhysIO without installing Matlab or requiring a Matlab license. The functionality should be equivalent, though debugging and extending the toolbox, as well as unreleased development features, will only be available in the Matlab version of PhysIO.&lt;/p>
 &lt;h2 id="download-example-data">Download Example Data&lt;/h2>
 &lt;p>The example data should already be present in NeuroDesk in the following folder &lt;code>/opt/spm12&lt;/code>&lt;/p>
 &lt;p>If you cannot find the example data there:&lt;/p>
@@ -150,7 +168,7 @@ group \ # this tells mriqc to agive you the group report
 &lt;h2 id="copy-your-own-data">Copy your own data&lt;/h2>
 &lt;ul>
 &lt;li>On Windows, the folder &lt;code>C:\neurodesktop-storage&lt;/code> should have been automatically created when starting NeuroDesk&lt;/li>
-&lt;li>This is your direct link to the NeuroDesk environment, and anything you put in there should end up within the NeuroDesk desktop in &lt;code>/neurodesktop-storage/&lt;/code>&lt;/li>
+&lt;li>This is your direct link to the NeuroDesk environment, and anything you put in there should end up within the NeuroDesk desktop in &lt;code>/neurodesktop-storage/&lt;/code> and on your desktop under &lt;code>storage&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="example-running-physio-in-the-gui">Example: Running PhysIO in the GUI&lt;/h2>
 &lt;ol>
